@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ad3f513841.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar-1">
+            <div class="container">
+                <h1><a class="fas fa-h-square fa-3x" href="index.html"></a></h1>
+                <ul>
+                    <li class="current"><a class="fas fa-tachometer-alt fa-2x" href="resource.html"></a><br>Resource</li>
+                    <li class="las-but"><a class="fas fa-sign-out-alt fa-3x" href="#"></a><br>LogOut</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <!-- Header -->
+            <div class="header-x header-1">
+                <div>
+                    <a href="#">
+                        <div class="menu-icon"></div>
+                        <div class="menu-icon"></div>
+                        <div class="menu-icon"></div>
+                    </a>
+                </div>
+                <div class="push">Dashboard</div>
+                <div class="social-icons">
+                    <div></div>
+                </div>
+            </div>
+            <div class="header-x header-2">
+                <a class="c-4" href="./index.html">Home </a>&nbsp/
+                <a href="./resource.html">&nbspResource</a> 
+            </div>
+             <!-- Main Card -->
+    </div>
+    <main>
+        <div class="card-single">
+                <span><i class="far fa-calendar-alt c-1">&nbsp&nbsp</i>Fri Jul 09 2021</span>
+                <span><i class="fas fa-exchange-alt c-3">&nbsp&nbsp</i><span class="fw">Week Range: </span>05|07 - 11|07</span>
+                <span><i class="far fa-calendar-alt c-2">&nbsp&nbsp</i><span class="fw">Current Week: </span>28</span>
+        </div>
+            <table class="content-table fs">
+                <thead class="border-dotted">
+                    <tr>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Seniority</th>
+                        <th>Practice Area</th>
+                        <th>Current Work</th>
+                        <th>Next Week</th>
+                        <th>Last Week</th>
+                        <th>Holidays</th>
+                        <th>YTD</th>
+                        <th>Staffing Request</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-dotted">
+                        <td><img class="persons" src="./img/1.jpeg" alt=""></td>
+                        <td>Domenic Franklin</td>
+                        <td>88,110</td>
+                        <td>Private M&A</td>
+                        <td><span class="dot yellow"></span></td>
+                        <td><span class="dot dg"></span></td>
+                        <td>20.5 Hrs</td>
+                        <td>02-07-21 <br>11-07-21 <br>More</td>
+                        <td>10.5 Hrs</td>
+                        <td><button data-modal-target="#modal" class="btn">View Requests</button></td>
+                    </tr>
+                    <tr class="border-dotted">
+                        <td><img src="./img/2.jpeg" class="persons" alt=""></td>
+                        <td>Sally Andrews</td>
+                        <td>72,400</td>
+                        <td>Sales</td>
+                        <td><span class="dot red"></span></td>
+                        <td><span class="dot dg"></span></td>
+                        <td>24.43 Hrs</td>
+                        <td>02-07-21 <br>11-07-21</td>
+                        <td>400 hr</td>
+                        <td><button data-modal-target="#modal" class="btn">View Requests</button></td>
+                    </tr>
+                    <tr class="border-dotted">
+                        <td><img class="persons" src="./img/3.jpeg" alt=""></td>
+                        <td>Nick</td>
+                        <td>52,300</td>
+                        <td>Stap</td>
+                        <td><span class="dot blue"></span></td>
+                        <td><span class="dot black"></span></td>
+                        <td>34.67 Hrs</td>
+                        <td>No Holidays <br>Booked</td>
+                        <td>20 hr</td>
+                        <td><button data-modal-target="#modal" class="btn">View Requests</button></td>
+                    </tr>
+                    <tr class="border-dotted">
+                        <td><img class="persons" src="./img/5.png" alt=""></td>
+                        <td>TBC</td>
+                        <td>Trainee</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><button data-modal-target="#modal" class="btn">View Requests</button></td>
+                    </tr>
+                    <tr class="border-dotted" class="modal">
+                        <td><img src="./img/5.png" class="persons"alt=""></td>
+                        <td>TBC</td>
+                        <td>Junior</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><button data-modal-target="#modal" class="btn">View Requests</button></td>
+                    </tr>
+                </tbody>
+            </table>
+    </main>
+    
+    <!-- Pop-Up -->
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title">Requests</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit illum itaque obcaecati esse, rerum magnam provident temporibus facilis doloribus nulla placeat quidem commodi.
+        </div>
+    </div>
+    <div id="overlay"></div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
